@@ -1,0 +1,3 @@
+en:
+  theme_metadata:
+    description: "Overrides admin chart colors, useful for situations where theme colors may provide insufficient color differentiation"
