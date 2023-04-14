@@ -24,6 +24,11 @@ export default apiInitializer("0.11.1", (api) => {
     }
   }
 
+  function applyAverage(value, start, end) {
+    const count = end.diff(start, "day") + 1; // 1 to include start
+    return parseFloat((value / count).toFixed(2));
+  }
+
   function collapseChartData(model, data) {
     let grouping = groupingForDatapoints(data.length);
 
