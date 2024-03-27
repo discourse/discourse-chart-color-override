@@ -1,6 +1,6 @@
 import { apiInitializer } from "discourse/lib/api";
-import { makeArray } from "discourse-common/lib/helpers";
 import loadScript from "discourse/lib/load-script";
+import { makeArray } from "discourse-common/lib/helpers";
 
 export default apiInitializer("0.11.1", (api) => {
   const user = api.getCurrentUser();
