@@ -1,8 +1,7 @@
 {
   "about_url": null,
   "license_url": null,
-  "assets": {
-  },
+  "assets": {},
   "name": "Admin chart color override",
   "component": true
 }
