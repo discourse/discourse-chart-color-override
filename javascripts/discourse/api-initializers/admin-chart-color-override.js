@@ -2,7 +2,7 @@ import { apiInitializer } from "discourse/lib/api";
 import { makeArray } from "discourse/lib/helpers";
 import loadScript from "discourse/lib/load-script";
 
-export default apiInitializer("0.11.1", (api) => {
+export default apiInitializer((api) => {
   const user = api.getCurrentUser();
 
   // need to include a couple functions since I can't import admin/models/report
