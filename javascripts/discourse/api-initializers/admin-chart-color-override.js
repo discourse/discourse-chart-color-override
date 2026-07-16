@@ -127,7 +127,7 @@ export default apiInitializer((api) => {
           }
         );
         const data = {
-          labels: chartData[0].data.mapBy("x"),
+          labels: chartData[0].data.map((d) => d.x),
           datasets: chartData.map((cd) => {
             return {
               label: cd.label,
